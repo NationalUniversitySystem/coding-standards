@@ -1,11 +1,116 @@
 {"0": {
+    "doc": "CSS",
+    "title": "CSS",
+    "content": " ",
+    "url": "/coding-standards/css/",
+    
+    "relUrl": "/css/"
+  },"1": {
+    "doc": "CSS",
+    "title": "Simple",
+    "content": " ",
+    "url": "/coding-standards/css/#simple",
+    
+    "relUrl": "/css/#simple"
+  },"2": {
+    "doc": "CSS",
+    "title": "Responsive",
+    "content": " ",
+    "url": "/coding-standards/css/#responsive",
+    
+    "relUrl": "/css/#responsive"
+  },"3": {
+    "doc": "CSS",
+    "title": "Media queries",
+    "content": "All media queries should be min-width, not max-width. ",
+    "url": "/coding-standards/css/#media-queries",
+    
+    "relUrl": "/css/#media-queries"
+  },"4": {
+    "doc": "JS",
+    "title": "JS",
+    "content": " ",
+    "url": "/coding-standards/js/",
+    
+    "relUrl": "/js/"
+  },"5": {
+    "doc": "JS",
+    "title": "Simple",
+    "content": "A lot of our codebase was built with dependencies such as jQuery. Though that was beneficial at the time, we now prefer to avoid such dependencies where possible. Prefer fewer dependencies and native JavaScript over frameworks and dependencies. When touching old code, try to update it so it no longer requires dependencies, so eventually we can remove them. ",
+    "url": "/coding-standards/js/#simple",
+    
+    "relUrl": "/js/#simple"
+  },"6": {
+    "doc": "JS",
+    "title": "Built",
+    "content": "JavaScript should be processed (such as by wp-scripts). This makes it easier to ensure final transpiled file will be as cross-browser compatible as possible. ",
+    "url": "/coding-standards/js/#built",
+    
+    "relUrl": "/js/#built"
+  },"7": {
+    "doc": "PHP",
+    "title": "PHP",
+    "content": " ",
+    "url": "/coding-standards/php/",
+    
+    "relUrl": "/php/"
+  },"8": {
+    "doc": "PHP",
+    "title": "Simple",
+    "content": " ",
+    "url": "/coding-standards/php/#simple",
+    
+    "relUrl": "/php/#simple"
+  },"9": {
+    "doc": "PHP",
+    "title": "Modern",
+    "content": "Keep an eye out for deprecated or outdated functions. Refer to the WPVIP Dashboard to see what version of PHP a given site is currently using. ",
+    "url": "/coding-standards/php/#modern",
+    
+    "relUrl": "/php/#modern"
+  },"10": {
+    "doc": "Overview",
+    "title": "Overview",
+    "content": "Our code should be simple, accessible, readable, and well-documented. ",
+    "url": "/coding-standards/overview/",
+    
+    "relUrl": "/overview/"
+  },"11": {
+    "doc": "Overview",
+    "title": "Simple",
+    "content": "For many reasons, NU prizes simple code. This makes the codebase easier to maintain; it speeds up site load times and deployment times; priorities change frequently; and over time, various teams and team members touch different parts of the codebase. We strive to help stakeholders identify goals rather than specific methods to reach their goals, reflect on the best way to achieve those goals, and achieve the shared vision with a minimum viable product. To help keep things simple, follow these guidelines: . | Follow WordPress coding standards, particularly WPVIP standards. | Do things the “WordPress way,” meaning generally include functionality in plugins, styling in themes, and WP functions where feasible. | Use native components (basic HTML elements with built-in functionality) where possible. (For example, use the &lt;nav&gt; element for navigation.) | Use the least amount of markup possible. (For example, avoid nesting &lt;div&gt;s repeatedly.) | Make use of the cascade in CSS. (For example, set the main font on the &lt;body&gt; tag so it only needs to be overriden for heading tags. As another example, favor lower specificity selectors like .group rather than high-specificity selectors like #chat-box or .group .content.black a.highlight.) | Extend Core blocks rather than building wholly separate blocks where feasible. | Remove code rather than commenting it out. | Develop mobile-first. This is a shift from how the teams built in the past, but over time as we move to this paradigm it speeds up page loads for mobile screens significantly. | . ",
+    "url": "/coding-standards/overview/#simple",
+    
+    "relUrl": "/overview/#simple"
+  },"12": {
+    "doc": "Overview",
+    "title": "Accessible",
+    "content": "As an organization that receives some government funding, NU aims to be fully WCAG 2.1 level A compliant. ",
+    "url": "/coding-standards/overview/#accessible",
+    
+    "relUrl": "/overview/#accessible"
+  },"13": {
+    "doc": "Overview",
+    "title": "Readable",
+    "content": "Although we value small file sizes, we value readability higher. Don’t nest functions deeply if an easier-to-read alternative is available. Similarly, use plenty of whitespace in code - particularly indention following WP Coding Standards - to make it easy to skim through the contents of a file. ",
+    "url": "/coding-standards/overview/#readable",
+    
+    "relUrl": "/overview/#readable"
+  },"14": {
+    "doc": "Overview",
+    "title": "Well-documented",
+    "content": "Comments and commits should be written thoughtfully so that it’s easy for an outsider to understand how things work and why they were set up a particular way. Within code files, use comments that state a function’s name, parameters, and returns. Use an active voice (“Parse API results”, not “Function to parse API results” or “Parsing API results”) and succinct sentences. Within commits, title the commit using an active voice (“Add hero section”) and add helpful context in the description (“Replace multiple test variants with February 2024 CRO winner.”). ",
+    "url": "/coding-standards/overview/#well-documented",
+    
+    "relUrl": "/overview/#well-documented"
+  },"15": {
     "doc": "Home",
     "title": "Dev Coding Standards",
-    "content": "How to code for NU public-facing websites. ",
+    "content": "How to code for NU public-facing websites. Please review the overview first for a list of guiding principles and reasoning behind them. ",
     "url": "/coding-standards/#dev-coding-standards",
     
     "relUrl": "/#dev-coding-standards"
-  },"1": {
+  },"16": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
